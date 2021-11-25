@@ -83,8 +83,7 @@ const registerControl = (request, response) => {
 const getClients = (request, response) => {
   const clientServices = require("../services/clientServices");
   clientServices.searchService(function (err, rows) {
-    response.json(rows);
-    response.end();
+    response.render('clients', { clients: rows });
   });
 };
 

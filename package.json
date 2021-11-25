@@ -1,12 +1,17 @@
 {
+  "scripts": {
+      "test": "echo\"Error: no test specified\" && exit 1",
+      "dev": "nodemon app.js",
+      "debug": "nodemon --inspect app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "duv": "^0.1.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-session": "^1.17.2",
-    "mysql": "^2.18.1",
-    "nodeman": "^1.1.2",
-    "session": "^0.1.0"
+      "bcryptjs": "^2.4.3",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "mysql": "^2.18.1",
+      "nodemon": "^2.0.15"
   }
 }

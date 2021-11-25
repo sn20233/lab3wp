@@ -10,7 +10,7 @@ const router = express.Router();
 router.post('/api/register',clientController.registerControl);
 //route for login
 router.post('/api/login', clientController.loginControl);
-router.get('/api/clientDetails', clientController.getClient);
+router.get('/api/clients', clientController.getClients);
 
 //route for listing all products
 router.get('/api/catalog', productController.getCatalog);
